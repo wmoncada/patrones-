@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"car",
+				"carType"
+			],
+			[
+				"Fa",
+				"FamilyCar〔class〕"
+			],
+			[
 				"do",
 				"doSomething"
 			],
@@ -32,29 +40,29 @@
 	"buffers":
 	[
 		{
-			"file": "testPyton.py",
+			"file": "design/FactoryMethod.py",
 			"settings":
 			{
-				"buffer_size": 61,
-				"line_ending": "Unix",
-				"name": "testPyton.py"
-			}
-		},
-		{
-			"file": "architecture/LayersPattern.py",
-			"settings":
-			{
-				"buffer_size": 945,
+				"buffer_size": 853,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "architecture/BuilderPattern.js",
+			"file": "/home/projects/pagina/index.html",
 			"settings":
 			{
-				"buffer_size": 698,
+				"buffer_size": 156,
 				"line_ending": "Unix",
-				"name": "BuilderPattern.js"
+				"name": "index.html"
+			}
+		},
+		{
+			"file": "/home/projects/pagina/estilo.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "estilo.css"
 			}
 		},
 		{
@@ -77,9 +85,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "pa",
+		"last_filter": "set syntax: p",
 		"selected_items":
 		[
+			[
+				"set syntax: p",
+				"Set Syntax: Python"
+			],
 			[
 				"pa",
 				"Package Control: Install Package"
@@ -111,6 +123,9 @@
 	],
 	"file_history":
 	[
+		"/home/projects/patrones/testPyton.py",
+		"/home/projects/patrones/architecture/BuilderPattern.js",
+		"/home/projects/patrones/architecture/BuildPattern.html",
 		"/home/wmoncada/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/home/projects/patrones/LayersPattern.py",
 		"/home/projects/patrones/readme.md"
@@ -131,6 +146,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"(:s)",
+			"(){\n",
 			"setLowelayer",
 			"servicio"
 		],
@@ -150,95 +167,95 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "testPyton.py",
+					"file": "design/FactoryMethod.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 61,
+						"buffer_size": 853,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								61
+								539,
+								539
 							]
 						],
 						"settings":
 						{
-							"auto_name": "testPyton.py",
+							"auto_complete": false,
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "architecture/LayersPattern.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 945,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								379,
-								379
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "architecture/BuilderPattern.js",
+					"file": "/home/projects/pagina/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 698,
+						"buffer_size": 156,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								321,
-								321
+								122,
+								122
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"auto_name": "BuilderPattern.js",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"auto_name": "index.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/projects/pagina/estilo.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "estilo.css",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -265,10 +282,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -313,7 +330,7 @@
 	"project": "patrones.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
